@@ -1,0 +1,284 @@
+html {
+    background-image: url(../images/cloth.png);
+    background-size: 500px;
+    background-repeat: repeat;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    height: 8%;
+    margin: 0;
+    color: white;
+    width: 100%;
+    background-color: rgb(214, 207, 195);
+}
+
+#name1 {
+    float: left;
+    background-color: #9b9376;
+    width: 19%;
+    font-size: 28px;
+    text-align: center;
+    margin-left: 10%;
+    height: 100%;
+    padding-right: 1%;
+    padding-left: 1%;
+    line-height: 200%;
+}
+
+#navigation {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(214, 207, 195);
+}
+
+
+.navLinks {
+    float: right;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    margin-right: 10%;
+    z-index: 1;
+    line-height: 100%;
+}
+
+li {
+    display: inline;
+    padding-right: 30px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(70, 52, 20);
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.aboutMe {
+    font-size: 34px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: white 3px solid;
+}
+
+#doggy {
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+section {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(214, 207, 195);
+    height: fit-content;
+    margin-top: 8%;
+    padding-bottom: 10px;
+    color: white;
+}
+
+section.porto {
+    width: 70%;
+    margin-bottom: 8%;
+    background-color: rgb(214, 207, 195);
+    margin-top: 8%;
+    color: white;
+    height: 150%;
+}
+
+form {
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+.inputType {
+    width: 35%;
+}
+
+textarea{
+    width: 300px;
+    height: 100px;
+}
+
+div.gallery {
+    margin: 5%;
+    float: left;
+    width: 40%;
+    position: relative;
+}
+
+#mainFrame {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+}
+
+.titles {
+    width: 100%;
+    background-color: #9b9376;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 70%;
+    height: 25px;
+    padding-top: 7px;
+}
+
+div a img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(214, 207, 195);
+    position: relative;
+    bottom: -150;
+    padding: 0;
+    line-height: 390%;
+
+}
+
+@media screen and (max-width:980px) {
+    header {
+        height: 6%;
+    }
+    #name1 {
+        font-size: 22px;
+        line-height: 180%;
+    }
+
+    .aboutMe {
+        font-size: 22px;
+    }
+
+    section.porto {
+        height: 120%;
+    }
+
+    .navLinks {
+        line-height: 35%;
+        font-size: 18px;
+    }
+
+    div.gallery {
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    header {
+        height: 6%;
+    }
+    #name1 {
+        font-size: 18px;
+        line-height: 220%;
+    }
+
+    .aboutMe {
+        font-size: 20px;
+    }
+
+    .navLinks {
+        line-height: 60%;
+        font-size: 16px;
+    }
+
+    section.porto {
+        width: 90%;
+        height: 120%;
+    }
+
+    section {
+        width: 90%;
+        height: fit-content;
+    } 
+
+    #doggy {
+        width: 280px;
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width:640px) {
+
+    #doggy {
+        width: 90%;
+        height: auto;
+    }
+
+    section {
+        height: fit-content;
+        margin-top: 12%;
+    }
+
+    section.porto {
+        height: 300%;
+        margin-top: 12%;
+    }
+
+    div.gallery {
+        width: 90%;
+    }
+
+    .aboutMe {
+        font-size: 22px;
+    }
+
+    #name1 {
+        width: 100%;
+        margin: 0;
+        height: 130%;
+        font-size: 24px;
+        line-height: 220%;
+        padding: 0;
+        clear: both;
+    }
+
+    .navLinks {
+        width: 100%;
+        line-height: 210%;
+        font-size: 16px;
+        background-color: rgb(214, 207, 195);
+        height: 80%;
+        margin: 0;
+        clear: both;
+    }
+    
+}
